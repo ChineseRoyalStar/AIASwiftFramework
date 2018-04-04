@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  iOS Framework for AIA in Swift
+  iOS Framework for AIA in Swift by Leon Guo
                        DESC
 
-  s.homepage         = 'https://github.com/Leon Guo/AIASwiftFramework'
+  s.homepage         = 'https://github.com/ChineseRoyalStar/AIASwiftFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Leon Guo' => '314285884@qq.com' }
-  s.source           = { :git => 'https://github.com/Leon Guo/AIASwiftFramework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ChineseRoyalStar/AIASwiftFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
