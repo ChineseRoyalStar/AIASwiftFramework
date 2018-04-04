@@ -1,0 +1,6 @@
+framework module AIASwiftFramework {
+  umbrella header "AIASwiftFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

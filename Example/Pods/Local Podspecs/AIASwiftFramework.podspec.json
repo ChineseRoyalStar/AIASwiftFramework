@@ -1,0 +1,22 @@
+{
+  "name": "AIASwiftFramework",
+  "version": "0.1.0",
+  "summary": "A short description of AIASwiftFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Leon Guo/AIASwiftFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Leon Guo": "314285884@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Leon Guo/AIASwiftFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AIASwiftFramework/Classes/**/*"
+}

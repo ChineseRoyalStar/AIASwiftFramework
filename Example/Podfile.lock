@@ -1,0 +1,23 @@
+PODS:
+  - AIASwiftFramework (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - AIASwiftFramework (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+EXTERNAL SOURCES:
+  AIASwiftFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AIASwiftFramework: 02e645f871de478fd1217b90d31165e0deec410f
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 726edf534d63898a127859a44f8115aae4bfa1c5
+
+COCOAPODS: 1.4.0
