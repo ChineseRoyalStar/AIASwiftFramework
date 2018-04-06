@@ -24,11 +24,13 @@ fileprivate class UIGestureRecognizerTarget {
 
 private var targetKey: UInt8 = 8;
 
-extension UIGestureRecognizer {
+public extension UIGestureRecognizer {
     
     fileprivate var targets:[UIGestureRecognizerTarget] {
         get {
-            if let _ = objc_getAssociatedObject(self, &targetKey) {
+            
+            let targets = objc_getAssociatedObject(self, &targetKey)
+            if targets == nil {
                 objc_setAssociatedObject(self, &targetKey, Array<UIGestureRecognizerTarget>.init(), .OBJC_ASSOCIATION_RETAIN)
             }
             return objc_getAssociatedObject(self, &targetKey) as! [UIGestureRecognizerTarget]

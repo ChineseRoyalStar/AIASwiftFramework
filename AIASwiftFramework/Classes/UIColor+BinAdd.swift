@@ -11,10 +11,21 @@ import UIKit
 
 public extension UIColor {
     
+    /**
+     Generate color with hex of 32bit int
+     - parameter hex: Hex integer value of color
+     - returns: The color which default alpha is 1.0.
+     */
     convenience init(withHex hex:UInt32) {
         self.init(withHex: hex, andAlpha: 1.0)
     }
     
+    /**
+     Generate color with hex string and alpha value
+     - parameter hex: Hex value of color
+     - parameter alpha: Alpha value of color
+     - returns: The color.
+     */
     convenience init(withHex hex:UInt32, andAlpha alpha:CGFloat) {
         
        self.init(red:CGFloat.init(((hex >> 16) & 0xFF))/255.0,
@@ -23,6 +34,11 @@ public extension UIColor {
                             alpha: alpha)
     }
     
+    /**
+     Generate color with hex String
+     - parameter hex: Hex value of color
+     - returns: The color.
+     */
     convenience init(withHexString hex:String){
         
         var alpha:CGFloat = 0

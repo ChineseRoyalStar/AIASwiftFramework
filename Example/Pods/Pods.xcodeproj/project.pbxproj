@@ -13,6 +13,7 @@
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34D0D6D12074B7CF00A8B2A4 /* UIColor+BinAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0D6CF2074B7CF00A8B2A4 /* UIColor+BinAdd.swift */; };
 		34D0D6D22074B7CF00A8B2A4 /* UIGestureRecognizer+BinAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0D6D02074B7CF00A8B2A4 /* UIGestureRecognizer+BinAdd.swift */; };
+		34FA002E20774E0C00C96CA5 /* UILabel+FTDLabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA002D20774E0C00C96CA5 /* UILabel+FTDLabelExtension.swift */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
@@ -69,6 +70,7 @@
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		34D0D6CF2074B7CF00A8B2A4 /* UIColor+BinAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+BinAdd.swift"; path = "AIASwiftFramework/Classes/UIColor+BinAdd.swift"; sourceTree = "<group>"; };
 		34D0D6D02074B7CF00A8B2A4 /* UIGestureRecognizer+BinAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIGestureRecognizer+BinAdd.swift"; path = "AIASwiftFramework/Classes/UIGestureRecognizer+BinAdd.swift"; sourceTree = "<group>"; };
+		34FA002D20774E0C00C96CA5 /* UILabel+FTDLabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel+FTDLabelExtension.swift"; path = "AIASwiftFramework/Classes/UILabel+FTDLabelExtension.swift"; sourceTree = "<group>"; };
 		38090F769196243C8666E65DB81EB816 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -298,6 +300,7 @@
 		96F5DF688C503AE8360387D35E310EEA /* AIASwiftFramework */ = {
 			isa = PBXGroup;
 			children = (
+				34FA002D20774E0C00C96CA5 /* UILabel+FTDLabelExtension.swift */,
 				34D0D6CF2074B7CF00A8B2A4 /* UIColor+BinAdd.swift */,
 				34D0D6D02074B7CF00A8B2A4 /* UIGestureRecognizer+BinAdd.swift */,
 				807A1F7E8B2BBC4A5F3A2BEB687231B0 /* Pod */,
@@ -525,6 +528,7 @@
 			files = (
 				706C9F8A3ECC23DBC53FBA2DB261A77F /* AIASwiftFramework-dummy.m in Sources */,
 				34D0D6D12074B7CF00A8B2A4 /* UIColor+BinAdd.swift in Sources */,
+				34FA002E20774E0C00C96CA5 /* UILabel+FTDLabelExtension.swift in Sources */,
 				34D0D6D22074B7CF00A8B2A4 /* UIGestureRecognizer+BinAdd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
